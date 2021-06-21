@@ -14,7 +14,7 @@ external_stylesheets = ["https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/boo
 db_wrapper = DbWrapper()
 
 app = dash.Dash('Live Air Quality', external_stylesheets=external_stylesheets)
-server = app.server
+# server = app.server
 app.title = 'Pi-Air'
 
 content = [
